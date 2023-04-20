@@ -1,0 +1,112 @@
+*{
+    user-select: none;
+}
+
+.container
+{
+    margin-top:10vh;
+}
+
+.content {
+    max-width: 50vh;
+    width: 90%;
+    height: 68vh;
+    margin: 20px auto;
+}
+
+.screen
+{
+    min-height: 28%;
+    background-color: #000;
+    border-radius: 10px 10px 0 0 ;
+    color: #fff;
+    padding: 30px 10px;
+    text-align: end;
+    line-height: 26px;
+}
+
+
+#equation {
+    border: none;
+    caret-color: #fff;
+    background-color: transparent;
+    direction: rtl;
+    outline: none;
+}
+
+.input-calc
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffffbb;
+    width: 100%;
+}
+
+.res
+{
+    margin-top: 6px;
+    font-size: 2.2rem;
+}
+
+.buttons {
+    border: solid;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    background-color: #242323;
+    grid-row-gap: 10px;
+    grid-column-gap: 4%;
+    border-radius: 0 0 10px 10px ;
+}
+
+.buttons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons div button {
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+
+.calculations {
+    background-color: coral;
+}
+
+.calculations:hover
+{
+    background-color: rgb(244, 94, 39);
+}
+
+.numbers {
+    background-color: #e1dfdf;
+}
+
+.numbers:hover
+{
+    background-color: #ffffff;
+}
+
+#equal {
+    background-color: #57ec35;
+}
+
+#equal:hover
+{
+    background-color: #2fff00
+}
+
+#clear {
+    background-color: #f45151;
+}
+
+#clear:hover {
+    background-color: #f82d2d;
+}
